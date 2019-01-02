@@ -1,0 +1,29 @@
+PODS:
+  - instantiateViewController (1.0.0)
+  - Ori-ios-sdk (1.0.0)
+
+DEPENDENCIES:
+  - instantiateViewController (from `https://github.com/shamaahlawat/instantiateViewController.git`)
+  - Ori-ios-sdk (from `https://github.com/shamaahlawat/Ori-ios-sdk.git`)
+
+EXTERNAL SOURCES:
+  instantiateViewController:
+    :git: https://github.com/shamaahlawat/instantiateViewController.git
+  Ori-ios-sdk:
+    :git: https://github.com/shamaahlawat/Ori-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  instantiateViewController:
+    :commit: f98b51b5b0f1ca869ff9fa6950fb3988130be1be
+    :git: https://github.com/shamaahlawat/instantiateViewController.git
+  Ori-ios-sdk:
+    :commit: 8071097dd9421277791345ebf190aa6fb3c2a6d3
+    :git: https://github.com/shamaahlawat/Ori-ios-sdk.git
+
+SPEC CHECKSUMS:
+  instantiateViewController: 8a990c97f77a6334e16bf06ddc82f4b87f9b9d9f
+  Ori-ios-sdk: 36da1b33e147e6cc7351ea1e037c35485f8a7cdb
+
+PODFILE CHECKSUM: 4613ebf61adadc25d68dee702134a1a92888cfd0
+
+COCOAPODS: 1.6.0.beta.2

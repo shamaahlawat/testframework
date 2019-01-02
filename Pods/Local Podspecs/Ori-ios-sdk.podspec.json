@@ -1,0 +1,19 @@
+{
+  "name": "Ori-ios-sdk",
+  "version": "1.0.0",
+  "summary": "Building an ios sdk -> Ori-ios-sdk",
+  "description": "This contains information related to open a webview when some parameters will be passed to open a specific webpage in mobile view",
+  "homepage": "https://github.com/shamaahlawat/Ori-ios-sdk",
+  "license": "MIT",
+  "authors": {
+    "Shama Ahlawat": "shama@oriserve.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/shamaahlawat/Ori-ios-sdk.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "Ori-ios-sdk/*"
+}

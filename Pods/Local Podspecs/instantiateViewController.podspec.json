@@ -1,0 +1,19 @@
+{
+  "name": "instantiateViewController",
+  "version": "1.0.0",
+  "summary": "This is short description of instantiateViewController.",
+  "description": "Instantiate view controller using storyboard programatically",
+  "homepage": "https://github.com/shamaahlawat/instantiateViewController",
+  "license": "MIT",
+  "authors": {
+    "Shama Ahlawat": "shama@oriserve.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/shamaahlawat/instantiateViewController.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "instantiateViewController/**/*"
+}

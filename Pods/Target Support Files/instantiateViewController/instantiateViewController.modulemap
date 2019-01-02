@@ -1,0 +1,6 @@
+framework module instantiateViewController {
+  umbrella header "instantiateViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
