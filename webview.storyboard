@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,7 +12,7 @@
         <!--Webview Controller-->
         <scene sceneID="fNI-gB-ozU">
             <objects>
-                <viewController storyboardIdentifier="webviewController" id="kDA-bl-eET" customClass="webviewController" customModule="instantiateViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="webviewController" id="kDA-bl-eET" customClass="webviewController" customModule="ColorPickerView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P1X-2n-9Mx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,7 +32,7 @@
                         <viewLayoutGuide key="safeArea" id="yhj-du-nDi"/>
                     </view>
                     <connections>
-                        <outlet property="webview" destination="CVD-5e-aaE" id="dzO-LG-1YM"/>
+                        <outlet property="chatwebview" destination="CVD-5e-aaE" id="BxG-b1-qVe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dxq-AT-AlF" userLabel="First Responder" sceneMemberID="firstResponder"/>

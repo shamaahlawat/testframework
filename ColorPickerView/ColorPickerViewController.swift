@@ -33,7 +33,7 @@ class ColorPickerViewController: UIViewController {
     private func pushwebViewController() {
         print( mainBundle)
         print("identifier: \(String(describing: mainBundle.bundleIdentifier))")
-        let const =  webviewController.secondviewcontroller.doSomething()
+        let const =  webviewController.doSomething()
         print(const)
        
         let viewController = UIStoryboard(name: "webview", bundle: nil).instantiateViewController(withIdentifier: "webviewController")
