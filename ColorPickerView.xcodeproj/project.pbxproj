@@ -62,6 +62,7 @@
 		2637F5DC21D6220300E36D43 /* instantiateViewController-bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "instantiateViewController-bridging.h"; sourceTree = "<group>"; };
 		2637F5DD21D6236900E36D43 /* instantiateViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = instantiateViewController.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ColorPickerView-emjyazfjnvvxjgdqroffgahongaj/Build/Products/Debug-iphonesimulator/instantiateViewController/instantiateViewController.framework"; sourceTree = "<group>"; };
 		26FEEE7321DDFFD6004F9D04 /* loading.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = loading.storyboard; sourceTree = "<group>"; };
+		26FEEE8121DE1910004F9D04 /* webview.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = webview.storyboard; path = Pods/instantiateViewController/../../webview.storyboard; sourceTree = "<group>"; };
 		5BFDF05CB6A305F4EDEAD2A0 /* Pods_ColorPickerViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPickerViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77234276A87EF1FFABDD5A46 /* Pods-ColorPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPickerView.release.xcconfig"; path = "Target Support Files/Pods-ColorPickerView/Pods-ColorPickerView.release.xcconfig"; sourceTree = "<group>"; };
 		9F6F048E8E10828B8C16F231 /* Pods_ColorPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +103,7 @@
 		2637F52421D4E66400E36D43 = {
 			isa = PBXGroup;
 			children = (
+				26FEEE8121DE1910004F9D04 /* webview.storyboard */,
 				26FEEE7321DDFFD6004F9D04 /* loading.storyboard */,
 				2637F5DD21D6236900E36D43 /* instantiateViewController.framework */,
 				2637F52F21D4E66400E36D43 /* ColorPickerView */,

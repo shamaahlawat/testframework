@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6183F41903D27DEDFE1247AE057DBA8E"
+               BlueprintIdentifier = "CAF4193BCB1E2C02D97E7B223E9874AF"
                BlueprintName = "instantiateViewController"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "instantiateViewController.framework">
