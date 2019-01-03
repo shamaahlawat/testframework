@@ -17,6 +17,7 @@
 		2637F55F21D4E68B00E36D43 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637F55E21D4E68B00E36D43 /* ColorPickerViewController.swift */; };
 		2637F56121D4F1F500E36D43 /* secondview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2637F56021D4F1F500E36D43 /* secondview.storyboard */; };
 		2637F56321D4F24400E36D43 /* secondview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637F56221D4F24400E36D43 /* secondview.swift */; };
+		26FEEE7421DDFFD6004F9D04 /* loading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FEEE7321DDFFD6004F9D04 /* loading.storyboard */; };
 		36F729AE6366E1BF95B74396 /* Pods_ColorPickerViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DED9DD21A4701C780B39A4 /* Pods_ColorPickerViewTests.framework */; };
 		55DA6C7333915D23F6659D24 /* Pods_ColorPickerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6F048E8E10828B8C16F231 /* Pods_ColorPickerView.framework */; };
 		96AE7750E29F2E8E07DB5F81 /* Pods_ColorPickerViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFDF05CB6A305F4EDEAD2A0 /* Pods_ColorPickerViewUITests.framework */; };
@@ -60,6 +61,7 @@
 		2637F56221D4F24400E36D43 /* secondview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondview.swift; sourceTree = "<group>"; };
 		2637F5DC21D6220300E36D43 /* instantiateViewController-bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "instantiateViewController-bridging.h"; sourceTree = "<group>"; };
 		2637F5DD21D6236900E36D43 /* instantiateViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = instantiateViewController.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ColorPickerView-emjyazfjnvvxjgdqroffgahongaj/Build/Products/Debug-iphonesimulator/instantiateViewController/instantiateViewController.framework"; sourceTree = "<group>"; };
+		26FEEE7321DDFFD6004F9D04 /* loading.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = loading.storyboard; sourceTree = "<group>"; };
 		5BFDF05CB6A305F4EDEAD2A0 /* Pods_ColorPickerViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPickerViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77234276A87EF1FFABDD5A46 /* Pods-ColorPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPickerView.release.xcconfig"; path = "Target Support Files/Pods-ColorPickerView/Pods-ColorPickerView.release.xcconfig"; sourceTree = "<group>"; };
 		9F6F048E8E10828B8C16F231 /* Pods_ColorPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +102,7 @@
 		2637F52421D4E66400E36D43 = {
 			isa = PBXGroup;
 			children = (
+				26FEEE7321DDFFD6004F9D04 /* loading.storyboard */,
 				2637F5DD21D6236900E36D43 /* instantiateViewController.framework */,
 				2637F52F21D4E66400E36D43 /* ColorPickerView */,
 				2637F54421D4E66700E36D43 /* ColorPickerViewTests */,
@@ -286,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FEEE7421DDFFD6004F9D04 /* loading.storyboard in Resources */,
 				2637F53B21D4E66600E36D43 /* LaunchScreen.storyboard in Resources */,
 				2637F53821D4E66600E36D43 /* Assets.xcassets in Resources */,
 				2637F53621D4E66400E36D43 /* Main.storyboard in Resources */,

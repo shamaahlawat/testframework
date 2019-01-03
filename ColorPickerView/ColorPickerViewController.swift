@@ -1,23 +1,14 @@
-//
-//  ColorPickerViewController.swift
-//  ColorPickerView
-//
-//  Created by Shama Ahlawat on 27/12/18.
-//  Copyright © 2018 oriserve. All rights reserved.
-//
-
 import Foundation
 import UIKit
 import instantiateViewController
 
 let mainBundle = Bundle.main
 
-
 //print("identifier: \(String(describing: mainBundle.bundleIdentifier))")
 
 class ColorPickerViewController: UIViewController {
 
-//    NSBundle *amazingBundle = [NSBundle bundleForClass:[self class]];
+//  NSBundle *amazingBundle = [NSBundle bundleForClass:[self class]];
     
     @IBAction func didTapRedButton(_ sender: Any) {
         pushViewController(title: "Red", color: UIColor.red)
@@ -31,7 +22,6 @@ class ColorPickerViewController: UIViewController {
         pushNewViewController(title: "Blue", color: UIColor.blue)
     }
     
-    
     @IBAction func didTapFrameworkStoryboardButton(_ sender: UIButton) {
          pushloadingViewController()
     }
@@ -41,24 +31,26 @@ class ColorPickerViewController: UIViewController {
         print("identifier: \(String(describing: mainBundle.bundleIdentifier))")
         let const =  loadingController.secondviewcontroller.doSomething()
         print(const)
-////        let bundle = Bundle(for: "com.oriserve.ColorPickerView")
+//       let bundle = Bundle(for: "com.oriserve.ColorPickerView")
 //        let storyboard = UIStoryboard(name: "loading", bundle: nil)
 //        let vc = storyboard.instantiateViewController(withIdentifier: "loadingcontroller") as UIViewController
-//        //        let vc = SecondViewController()
+//       let vc = SecondViewController()
 //        self.navigationController?.pushViewController(vc, animated: true)
         
 //        let vc : loadingController = loadingController()
 //        self.present(vc, animated: true, completion: nil)
         
-        
 
-            let vc : loadingController = loadingController()
-            print("vc is", vc)
-            self.present(vc, animated: true)
+//            let vc : loadingController = loadingController()
+//            print("vc is", vc)
+//            self.present(vc, animated: true)
         
         
+        let viewController = UIStoryboard(name: "loading", bundle: nil).instantiateViewController(withIdentifier: "loadingController")
+        self.present(viewController, animated: false, completion: nil)
         
-//            self.navigationController?.pushViewController(vc, animated: true)
+        
+//        self.navigationController?.pushViewController(vc, animated: true)
         
 //        let loadingController :UIViewController = loadingController()
 //        self.present(loadingController , animated: true, completion: nil)
@@ -66,36 +58,34 @@ class ColorPickerViewController: UIViewController {
         
 //        NSBundle* bun = [NSBundle bundleWithIdentifier:"id"]
 //        
-//        UIStoryboard *storyboard = [UIStoryboard   storyboardWithName:@"StoryboardName" bundle:bun];
+//        UIStoryboard *storyboard = [UIStoryboard   storyboardWithName:@"StoryboardName"         bundle:bun];
         
-        //  SAFE PUSH
-//        if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainVC") as? JunctionDetailsVC {
-//            if let navigator = navigationController {
-//                navigator.pushViewController(viewController, animated: true)
+                                //  SAFE PUSH
+        
+//  if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainVC") as? JunctionDetailsVC {
+//  if let navigator = navigationController {
+//  navigator.pushViewController(viewController, animated: true)
 //            }
         
         
-//        let storyboard = UIStoryboard(name: "loadingController", bundle: nil)
-//        let vc = storyboard.instantiateViewController(withIdentifier: "loadingController") as UIViewController
-//        //        let vc = SecondViewController()
-//        self.navigationController?.pushViewController(vc, animated: true)
-
-//        let frameworkBundle = Bundle(identifier: "com.oriserve.instantiateViewController")
-//        let storyboard = UIStoryboard(name: "loadingcontroller", bundle: frameworkBundle)
-//        let vc = storyboard.instantiateViewController(withIdentifier: "loadingcontroller") as UIViewController
-//        //        //        let vc = SecondViewController()
-//        self.navigationController?.pushViewController(vc, animated: true)
+//    let storyboard = UIStoryboard(name: "loadingController", bundle: nil)
+//    let vc = storyboard.instantiateViewController(withIdentifier: "loadingController") as UIViewController
+//   let vc = SecondViewController()
+//    self.navigationController?.pushViewController(vc, animated: true)
+//
+//    let frameworkBundle = Bundle(identifier: "com.oriserve.instantiateViewController")
+//    let storyboard = UIStoryboard(name: "loadingcontroller", bundle: frameworkBundle)
+//    let vc = storyboard.instantiateViewController(withIdentifier: "loadingcontroller") as  UIViewController
+//    let vc = SecondViewController()
+//    self.navigationController?.pushViewController(vc, animated: true)
     }
-    
-    
     private func pushNewViewController(title: String, color: UIColor) {
         
         let storyboard = UIStoryboard(name: "secondview", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "SecondViewController") as UIViewController
-//        let vc = SecondViewController()
+   //   let vc = SecondViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
-    
     
     private func pushViewController(title: String, color: UIColor) {
         let vc = UIViewController()
