@@ -40,7 +40,6 @@ class ColorPickerViewController: UIViewController {
         self.present(viewController, animated: false, completion: nil)
     }
     
-    
     private func pushloadingViewController() {
         print( mainBundle)
         print("identifier: \(String(describing: mainBundle.bundleIdentifier))")
@@ -59,12 +58,9 @@ class ColorPickerViewController: UIViewController {
 //            let vc : loadingController = loadingController()
 //            print("vc is", vc)
 //            self.present(vc, animated: true)
-        
-        
         let viewController = UIStoryboard(name: "loading", bundle: nil).instantiateViewController(withIdentifier: "loadingController")
-        self.present(viewController, animated: false, completion: nil)
-        
-        
+//        self.present(viewController, animated: false, completion: nil)
+        self.navigationController?.pushViewController(viewController, animated: true)
 //        self.navigationController?.pushViewController(vc, animated: true)
         
 //        let loadingController :UIViewController = loadingController()

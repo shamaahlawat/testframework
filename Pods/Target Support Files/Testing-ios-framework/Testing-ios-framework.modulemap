@@ -1,0 +1,6 @@
+framework module Testing_ios_framework {
+  umbrella header "Testing-ios-framework-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,14 +1,9 @@
-//  loadingwebview.swift
-//  instantiateViewController
-//
-//  Created by Shama Ahlawat on 03/01/19.
-//  Copyright © 2019 oriserve. All rights reserved.
-//
-
 import Foundation
 import WebKit
+//import UIKit
 
 public class webviewController {
+//    @IBOutlet weak var chatwebview: WKWebView!
     @IBOutlet weak var chatwebview: WKWebView!
     public init(){
         let htmlpath = Bundle.main.path(forResource: "index", ofType: "html")
