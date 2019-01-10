@@ -8,28 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		0A43160B49E6686D0A36128E0A610234 /* test.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 87CE13B323E50DE2395EA55195C69D5F /* test.storyboard */; };
-		19B6B700FF74A47D680979310921F112 /* loading.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 54249052DA4ED4D0FC710600557A879A /* loading.storyboard */; };
 		19E204A2DD2CF4FE2586C218668C674C /* Ori-ios-sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F9ADEA8E4A83CD74967AC6340348E09 /* Ori-ios-sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AC814A4FB5EAF2AE5F155C066121C92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		1D8EF0E98881CFBF211DD370FBA7BE64 /* instantiateViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7865FB3FF2F30442289A2CC647FC96D /* instantiateViewController-dummy.m */; };
 		1E86C44E114A91145FAE5171B9A4C3BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		26490D66752043C5C80AA2650D938802 /* Pods-ColorPickerViewUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 585DE932485855A42DC517829743B188 /* Pods-ColorPickerViewUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26FB936221E646E100626415 /* newFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FB936121E646E100626415 /* newFile.swift */; };
-		26FB936421E649FA00626415 /* webViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FB936321E649FA00626415 /* webViewVC.swift */; };
 		2D3CD052D66C8903CC5D917EBB32F7C0 /* index.html in Sources */ = {isa = PBXBuildFile; fileRef = 3D60C847C66694DA1891E78B8135C370 /* index.html */; };
 		364A058AEB512F31BDCC71496BA3BF27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		45E42F202F82D0536647A258F6F6777A /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = D07C6649C70CDBA5EDB36C63C0337E20 /* Info.plist */; };
 		4E694E2A4E08F21EF1A4DA112897F3C7 /* Pods-ColorPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF89967C64BE5F64CD3CA5EC894F945 /* Pods-ColorPickerView-dummy.m */; };
-		50BDC084BD8B310D40752AA2DFDF9AB3 /* webview.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 280D9C1DC2099392A4149F329C753FEC /* webview.storyboard */; };
 		6BCA1CBCBCC1E54331D29A59E0EF7B5D /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5639368C4E897E919DC86DDF499ED1F /* test.swift */; };
 		6BFC804C8ADFE84D0F324D8447F3EA4A /* sourcefile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566967BC3E5A417D894A9C31ACD71CF /* sourcefile.swift */; };
 		6C649CE20B89710469CB63453665DB80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		8015A18EF738A9900998B0A65BCCF238 /* instantiateViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD997FB8F6D8EB549A42B2192094247 /* instantiateViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80D685B9C55E1D7EE9ACD8295E03D33E /* loadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D6198F083EDD8AA0A298B09BB6868 /* loadingController.swift */; };
 		8A7A9F459DD7EF04D226D4372198CD54 /* Pods-ColorPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C1FE74DE25D3792978540970CF9D1B /* Pods-ColorPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BE14090CE71D010F6E23B0DF0283C60 /* instantiateViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 40E11D06A587DB8462D18F4058ED03EB /* instantiateViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0E95CA65A5F24E381CB128BA3207B35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		AF5003C08390CE2E6960EFC4E2B5A010 /* loadingwebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E72A68EA22E469DDB65EAE818FEDAC /* loadingwebview.swift */; };
 		B5799B454E044D96FB0108A375B38F07 /* Pods-ColorPickerViewTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AD301F88C3C69BF2E39861B1DEDE8AF /* Pods-ColorPickerViewTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEEC0CA63853C90395CBAB381A200A11 /* Pods-ColorPickerViewTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B223103285E11DE8CC85F70CCB20BC /* Pods-ColorPickerViewTests-dummy.m */; };
 		CB8D4BD5FD13C59FB03B0C407D127DF6 /* Ori-ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F906793A0BC5F892E7D7142927768 /* Ori-ios-sdk-dummy.m */; };
@@ -76,8 +71,6 @@
 		1E7C766BEEE059D244D759917B76F37C /* Pods-ColorPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorPickerView-Info.plist"; sourceTree = "<group>"; };
 		216C898835DF28CE9C1B7D96794C1652 /* Pods-ColorPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorPickerView.release.xcconfig"; sourceTree = "<group>"; };
 		26FB936121E646E100626415 /* newFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newFile.swift; sourceTree = "<group>"; };
-		26FB936321E649FA00626415 /* webViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewVC.swift; sourceTree = "<group>"; };
-		280D9C1DC2099392A4149F329C753FEC /* webview.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = webview.storyboard; path = instantiateViewController/webview.storyboard; sourceTree = "<group>"; };
 		2D7355EE043AF5CC3AE528603440C051 /* Pods-ColorPickerViewUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorPickerViewUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2F9ADEA8E4A83CD74967AC6340348E09 /* Ori-ios-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ori-ios-sdk-umbrella.h"; sourceTree = "<group>"; };
 		30C3AB7D8D6CB9209DFC74D4E4957EDD /* instantiateViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = instantiateViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,7 +84,6 @@
 		4645C2056B57A05013AF3BCA73126BBA /* Ori-ios-sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Ori-ios-sdk-Info.plist"; sourceTree = "<group>"; };
 		4A16255069C77A0BDE5AC41F34958795 /* Pods-ColorPickerViewTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorPickerViewTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		50639B4CFB78ACA7E2C8152C3238466B /* Pods-ColorPickerViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorPickerViewTests.debug.xcconfig"; sourceTree = "<group>"; };
-		54249052DA4ED4D0FC710600557A879A /* loading.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = loading.storyboard; path = instantiateViewController/loading.storyboard; sourceTree = "<group>"; };
 		57C089A8D422D7162C20BE5870F68786 /* instantiateViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "instantiateViewController-prefix.pch"; sourceTree = "<group>"; };
 		585DE932485855A42DC517829743B188 /* Pods-ColorPickerViewUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorPickerViewUITests-umbrella.h"; sourceTree = "<group>"; };
 		587DFAC390585D4AA48C74C8AD0C99EF /* Pods-ColorPickerViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorPickerViewTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,12 +100,10 @@
 		8BF89967C64BE5F64CD3CA5EC894F945 /* Pods-ColorPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorPickerView-dummy.m"; sourceTree = "<group>"; };
 		8D35EB7FCCA57778AF17BEB040AB590D /* Pods-ColorPickerViewUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColorPickerViewUITests.modulemap"; sourceTree = "<group>"; };
 		8E524348B1953DD68FB2446D3D0B2E82 /* Ori-ios-sdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Ori-ios-sdk.xcconfig"; sourceTree = "<group>"; };
-		90E72A68EA22E469DDB65EAE818FEDAC /* loadingwebview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = loadingwebview.swift; path = instantiateViewController/loadingwebview.swift; sourceTree = "<group>"; };
 		954C5C1DA2EE8ED4A504B0AB6C1872D5 /* Pods-ColorPickerViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorPickerViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9A1CAF11F73AEF8C0E304CE6D62BB21C /* instantiateViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = instantiateViewController.xcconfig; sourceTree = "<group>"; };
 		A5639368C4E897E919DC86DDF499ED1F /* test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = test.swift; path = "Ori-ios-sdk/test.swift"; sourceTree = "<group>"; };
 		A566967BC3E5A417D894A9C31ACD71CF /* sourcefile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = sourcefile.swift; path = "Ori-ios-sdk/sourcefile.swift"; sourceTree = "<group>"; };
-		A91D6198F083EDD8AA0A298B09BB6868 /* loadingController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = loadingController.swift; path = instantiateViewController/loadingController.swift; sourceTree = "<group>"; };
 		AF5FD91DC96032AAB0F20C85D31E2222 /* Pods-ColorPickerViewTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColorPickerViewTests.modulemap"; sourceTree = "<group>"; };
 		B2E5E6A7998E0ADA8ACC2A45D90D684C /* Pods-ColorPickerViewTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorPickerViewTests-Info.plist"; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -208,13 +198,8 @@
 				F71626E932EE2D62458BDA3636368A80 /* index.html */,
 				E514D6E04BE274798B7B4C8BC1DA9976 /* Info.plist */,
 				40E11D06A587DB8462D18F4058ED03EB /* instantiateViewController.h */,
-				54249052DA4ED4D0FC710600557A879A /* loading.storyboard */,
-				A91D6198F083EDD8AA0A298B09BB6868 /* loadingController.swift */,
-				90E72A68EA22E469DDB65EAE818FEDAC /* loadingwebview.swift */,
 				87CE13B323E50DE2395EA55195C69D5F /* test.storyboard */,
 				26FB936121E646E100626415 /* newFile.swift */,
-				26FB936321E649FA00626415 /* webViewVC.swift */,
-				280D9C1DC2099392A4149F329C753FEC /* webview.storyboard */,
 				0DC537AB6E44B79F63D5FF7A0EF138BD /* Support Files */,
 			);
 			path = instantiateViewController;
@@ -600,13 +585,8 @@
 				F8A569D9296F9ED7391A67DB0B917725 /* index.html in Sources */,
 				E0049C4B731597070F482C0F187AEC6C /* Info.plist in Sources */,
 				1D8EF0E98881CFBF211DD370FBA7BE64 /* instantiateViewController-dummy.m in Sources */,
-				19B6B700FF74A47D680979310921F112 /* loading.storyboard in Sources */,
-				80D685B9C55E1D7EE9ACD8295E03D33E /* loadingController.swift in Sources */,
-				AF5003C08390CE2E6960EFC4E2B5A010 /* loadingwebview.swift in Sources */,
-				26FB936421E649FA00626415 /* webViewVC.swift in Sources */,
 				0A43160B49E6686D0A36128E0A610234 /* test.storyboard in Sources */,
 				26FB936221E646E100626415 /* newFile.swift in Sources */,
-				50BDC084BD8B310D40752AA2DFDF9AB3 /* webview.storyboard in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
