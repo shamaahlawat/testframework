@@ -30,12 +30,25 @@ class ColorPickerViewController: UIViewController {
         pushwebViewController()
     }
     
+    @IBAction func didTapTestButton(_ sender: UIButton) {
+        pushTestController()
+}
+    
+    private func  pushTestController() {
+        let storyboard = UIStoryboard(name: "test", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "newFile") as UIViewController
+        //   let vc = SecondViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     private func pushwebViewController() {
         print( mainBundle)
         print("identifier: \(String(describing: mainBundle.bundleIdentifier))")
         let const =  webviewController.doSomething()
         print(const)
        
+//      let webViewController = JXWebViewController()
+//      webViewController.webView.load(URLRequest(url: url))
         let viewController = UIStoryboard(name: "webview", bundle: nil).instantiateViewController(withIdentifier: "webviewController")
         self.present(viewController, animated: false, completion: nil)
     }
@@ -90,8 +103,8 @@ class ColorPickerViewController: UIViewController {
 //    let vc = SecondViewController()
 //    self.navigationController?.pushViewController(vc, animated: true)
     }
+    
     private func pushNewViewController(title: String, color: UIColor) {
-        
         let storyboard = UIStoryboard(name: "secondview", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "SecondViewController") as UIViewController
    //   let vc = SecondViewController()
