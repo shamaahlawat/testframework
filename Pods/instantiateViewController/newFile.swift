@@ -31,11 +31,11 @@ class newFile: UIViewController {
         }
     }
     
-    @IBAction func ActionNew(_ sender: UIButton){
-        print("new")
-        Activity.isHidden = true
-        
-        Activity.stopAnimating()
-    }
+//    @IBAction func ActionNew(_ sender: UIButton){
+//        print("new")
+//        Activity.isHidden = true
+//        
+//        Activity.stopAnimating()
+//    }
     
 }
